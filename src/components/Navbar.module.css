@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #721313;
+    padding: 0 50px;
+}
+
+.logo{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+    padding: 15px;
+    cursor: pointer;
+    color: #f5dd35;
+    font-weight: bold;
+}
+
+.list li:hover {
+    color: aquamarine;
+}

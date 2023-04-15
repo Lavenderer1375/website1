@@ -1,0 +1,16 @@
+.container {
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.container p {
+    color: aliceblue;
+    line-height: 35px;
+}
+
+.container h3 {
+    padding-top: 1rem;
+    color: aliceblue;
+    line-height: 35px;
+}

@@ -1,0 +1,33 @@
+.container {
+    margin: 10px;
+    background-color: firebrick;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px brown;
+}
+
+.container:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.container img {
+    width: 300px;
+    height: 250px;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 30px 20px 20px;
+}
+
+.container p {
+    font-size: large;
+    margin: 0 25px 20px;
+    background-color: rgb(10, 145, 46);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
