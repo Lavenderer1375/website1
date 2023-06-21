@@ -1,5 +1,6 @@
 .container {
     margin: 10px;
+    width: 300px;
     background-color: firebrick;
     border-radius: 10px;
     overflow: hidden;
@@ -40,7 +41,7 @@
 
 .counter img {
     width: 20px;
-    height: 30px;
+    height: fit-content;
     margin: 20px;
     cursor: pointer;
     border-radius: 2rem;

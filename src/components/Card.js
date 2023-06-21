@@ -39,7 +39,7 @@ export default class Card extends Component {
           <img src={upArrow} alt="arrowUp" onClick={this.upHandler} />
           <span>{counter}</span>
           <img
-            className={!counter && styles.deactive}
+            className={!counter ? styles.deactive : ''}
             src={downArrow}
             alt="arrowDn"
             onClick={this.downHandler}
