@@ -1,7 +1,5 @@
 import React from 'react';
-import { useNavigate, Link, Routes, Route } from 'react-router-dom';
-import Programmers from './Programmers';
-import Drivers from './Drivers';
+import { useNavigate, Link, Outlet } from 'react-router-dom';
 
 const AboutUs = () => {
   const navigate = useNavigate(); //by default it will push the user to wherever we want.
@@ -22,12 +20,7 @@ const AboutUs = () => {
           <Link to="drivers">Drivers</Link>
         </li>
       </ul>
-      <div>
-        <Routes>
-          <Route path="programmers" element={<Programmers />} />
-          <Route path="drivers" element={<Drivers />} />
-        </Routes>
-      </div>
+      <Outlet />
     </div>
   );
 };
